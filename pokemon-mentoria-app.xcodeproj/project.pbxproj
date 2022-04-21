@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0225EE27EB803B00365C90 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0225ED27EB803B00365C90 /* NewsListViewController.swift */; };
+		DB0225F027EB855600365C90 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0225EF27EB855600365C90 /* BlueViewController.swift */; };
+		DB79C46627EB9D830056EDAF /* ArticlesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB79C46527EB9D830056EDAF /* ArticlesModel.swift */; };
+		DB808E4427AB6012006F4FA6 /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB808E4327AB6012006F4FA6 /* PrimaryButton.xib */; };
+		DB808E4627AB605B006F4FA6 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB808E4527AB605B006F4FA6 /* PrimaryButton.swift */; };
+		DB808E5127AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5027AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf */; };
+		DB808E5227AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5027AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf */; };
+		DB808E5327AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5027AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf */; };
+		DB808E5627AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5427AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf */; };
+		DB808E5727AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5427AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf */; };
+		DB808E5827AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5427AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf */; };
+		DB808E5927AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5527AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf */; };
+		DB808E5A27AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5527AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf */; };
+		DB808E5B27AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5527AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf */; };
+		DB95DC572804F8B700FC0837 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95DC562804F8B700FC0837 /* NewsCell.swift */; };
+		DBCAC44C2799F4AB0069BFDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAC44B2799F4AB0069BFDE /* AppDelegate.swift */; };
+		DBCAC44E2799F4AB0069BFDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAC44D2799F4AB0069BFDE /* SceneDelegate.swift */; };
+		DBCAC4502799F4AB0069BFDE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAC44F2799F4AB0069BFDE /* HomeViewController.swift */; };
+		DBCAC4532799F4AB0069BFDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCAC4512799F4AB0069BFDE /* Main.storyboard */; };
+		DBCAC4552799F4AD0069BFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCAC4542799F4AD0069BFDE /* Assets.xcassets */; };
+		DBCAC4582799F4AD0069BFDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCAC4562799F4AD0069BFDE /* LaunchScreen.storyboard */; };
+		DBCAC4632799F4AD0069BFDE /* pokemon_mentoria_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAC4622799F4AD0069BFDE /* pokemon_mentoria_appTests.swift */; };
+		DBCAC46D2799F4AD0069BFDE /* pokemon_mentoria_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAC46C2799F4AD0069BFDE /* pokemon_mentoria_appUITests.swift */; };
+		DBCAC46F2799F4AD0069BFDE /* pokemon_mentoria_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAC46E2799F4AD0069BFDE /* pokemon_mentoria_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBCAC45F2799F4AD0069BFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBCAC4402799F4AB0069BFDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBCAC4472799F4AB0069BFDE;
+			remoteInfo = "pokemon-mentoria-app";
+		};
+		DBCAC4692799F4AD0069BFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBCAC4402799F4AB0069BFDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBCAC4472799F4AB0069BFDE;
+			remoteInfo = "pokemon-mentoria-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB0225ED27EB803B00365C90 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		DB0225EF27EB855600365C90 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		DB79C46527EB9D830056EDAF /* ArticlesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesModel.swift; sourceTree = "<group>"; };
+		DB808E4327AB6012006F4FA6 /* PrimaryButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryButton.xib; sourceTree = "<group>"; };
+		DB808E4527AB605B006F4FA6 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		DB808E5027AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		DB808E5427AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		DB808E5527AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		DB95DC562804F8B700FC0837 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		DBCAC4482799F4AB0069BFDE /* pokemon-mentoria-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pokemon-mentoria-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCAC44B2799F4AB0069BFDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBCAC44D2799F4AB0069BFDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBCAC44F2799F4AB0069BFDE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DBCAC4522799F4AB0069BFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBCAC4542799F4AD0069BFDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBCAC4572799F4AD0069BFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBCAC4592799F4AD0069BFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCAC45E2799F4AD0069BFDE /* pokemon-mentoria-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pokemon-mentoria-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCAC4622799F4AD0069BFDE /* pokemon_mentoria_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemon_mentoria_appTests.swift; sourceTree = "<group>"; };
+		DBCAC4682799F4AD0069BFDE /* pokemon-mentoria-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pokemon-mentoria-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCAC46C2799F4AD0069BFDE /* pokemon_mentoria_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemon_mentoria_appUITests.swift; sourceTree = "<group>"; };
+		DBCAC46E2799F4AD0069BFDE /* pokemon_mentoria_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemon_mentoria_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBCAC4452799F4AB0069BFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCAC45B2799F4AD0069BFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCAC4652799F4AD0069BFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB808E3F27AB5EFF006F4FA6 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				DB808E4027AB5F0A006F4FA6 /* Model */,
+				DB808E4127AB5F13006F4FA6 /* View */,
+				DB808E4227AB5F1B006F4FA6 /* Controller */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		DB808E4027AB5F0A006F4FA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB808E4127AB5F13006F4FA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB808E4327AB6012006F4FA6 /* PrimaryButton.xib */,
+				DB808E4527AB605B006F4FA6 /* PrimaryButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB808E4227AB5F1B006F4FA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB808E4727AB638C006F4FA6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB808E5027AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf */,
+				DB808E5527AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf */,
+				DB808E5427AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DBBC3CC027A315E8009DDC76 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				DBBC3CC127A315F1009DDC76 /* Model */,
+				DBBC3CC227A315F8009DDC76 /* View */,
+				DBBC3CC327A315FF009DDC76 /* Controller */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		DBBC3CC127A315F1009DDC76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBBC3CC227A315F8009DDC76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBBC3CC327A315FF009DDC76 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DBCAC43F2799F4AB0069BFDE = {
+			isa = PBXGroup;
+			children = (
+				DBCAC44A2799F4AB0069BFDE /* pokemon-mentoria-app */,
+				DBCAC4612799F4AD0069BFDE /* pokemon-mentoria-appTests */,
+				DBCAC46B2799F4AD0069BFDE /* pokemon-mentoria-appUITests */,
+				DBCAC4492799F4AB0069BFDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBCAC4492799F4AB0069BFDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBCAC4482799F4AB0069BFDE /* pokemon-mentoria-app.app */,
+				DBCAC45E2799F4AD0069BFDE /* pokemon-mentoria-appTests.xctest */,
+				DBCAC4682799F4AD0069BFDE /* pokemon-mentoria-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBCAC44A2799F4AB0069BFDE /* pokemon-mentoria-app */ = {
+			isa = PBXGroup;
+			children = (
+				DBCAC47B2799F53F0069BFDE /* Design System */,
+				DBCAC44B2799F4AB0069BFDE /* AppDelegate.swift */,
+				DBCAC44D2799F4AB0069BFDE /* SceneDelegate.swift */,
+				DBCAC44F2799F4AB0069BFDE /* HomeViewController.swift */,
+				DB0225ED27EB803B00365C90 /* NewsListViewController.swift */,
+				DB0225EF27EB855600365C90 /* BlueViewController.swift */,
+				DB79C46527EB9D830056EDAF /* ArticlesModel.swift */,
+				DB95DC562804F8B700FC0837 /* NewsCell.swift */,
+				DBCAC4512799F4AB0069BFDE /* Main.storyboard */,
+				DBCAC4542799F4AD0069BFDE /* Assets.xcassets */,
+				DBCAC4562799F4AD0069BFDE /* LaunchScreen.storyboard */,
+				DBCAC4592799F4AD0069BFDE /* Info.plist */,
+			);
+			path = "pokemon-mentoria-app";
+			sourceTree = "<group>";
+		};
+		DBCAC4612799F4AD0069BFDE /* pokemon-mentoria-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBCAC4622799F4AD0069BFDE /* pokemon_mentoria_appTests.swift */,
+			);
+			path = "pokemon-mentoria-appTests";
+			sourceTree = "<group>";
+		};
+		DBCAC46B2799F4AD0069BFDE /* pokemon-mentoria-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBCAC46C2799F4AD0069BFDE /* pokemon_mentoria_appUITests.swift */,
+				DBCAC46E2799F4AD0069BFDE /* pokemon_mentoria_appUITestsLaunchTests.swift */,
+			);
+			path = "pokemon-mentoria-appUITests";
+			sourceTree = "<group>";
+		};
+		DBCAC47B2799F53F0069BFDE /* Design System */ = {
+			isa = PBXGroup;
+			children = (
+				DB808E4727AB638C006F4FA6 /* Fonts */,
+				DB808E3F27AB5EFF006F4FA6 /* Buttons */,
+				DBBC3CC027A315E8009DDC76 /* Input */,
+			);
+			path = "Design System";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBCAC4472799F4AB0069BFDE /* pokemon-mentoria-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCAC4722799F4AD0069BFDE /* Build configuration list for PBXNativeTarget "pokemon-mentoria-app" */;
+			buildPhases = (
+				DBCAC4442799F4AB0069BFDE /* Sources */,
+				DBCAC4452799F4AB0069BFDE /* Frameworks */,
+				DBCAC4462799F4AB0069BFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pokemon-mentoria-app";
+			productName = "pokemon-mentoria-app";
+			productReference = DBCAC4482799F4AB0069BFDE /* pokemon-mentoria-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBCAC45D2799F4AD0069BFDE /* pokemon-mentoria-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCAC4752799F4AD0069BFDE /* Build configuration list for PBXNativeTarget "pokemon-mentoria-appTests" */;
+			buildPhases = (
+				DBCAC45A2799F4AD0069BFDE /* Sources */,
+				DBCAC45B2799F4AD0069BFDE /* Frameworks */,
+				DBCAC45C2799F4AD0069BFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBCAC4602799F4AD0069BFDE /* PBXTargetDependency */,
+			);
+			name = "pokemon-mentoria-appTests";
+			productName = "pokemon-mentoria-appTests";
+			productReference = DBCAC45E2799F4AD0069BFDE /* pokemon-mentoria-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBCAC4672799F4AD0069BFDE /* pokemon-mentoria-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCAC4782799F4AD0069BFDE /* Build configuration list for PBXNativeTarget "pokemon-mentoria-appUITests" */;
+			buildPhases = (
+				DBCAC4642799F4AD0069BFDE /* Sources */,
+				DBCAC4652799F4AD0069BFDE /* Frameworks */,
+				DBCAC4662799F4AD0069BFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBCAC46A2799F4AD0069BFDE /* PBXTargetDependency */,
+			);
+			name = "pokemon-mentoria-appUITests";
+			productName = "pokemon-mentoria-appUITests";
+			productReference = DBCAC4682799F4AD0069BFDE /* pokemon-mentoria-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBCAC4402799F4AB0069BFDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DBCAC4472799F4AB0069BFDE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DBCAC45D2799F4AD0069BFDE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DBCAC4472799F4AB0069BFDE;
+					};
+					DBCAC4672799F4AD0069BFDE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DBCAC4472799F4AB0069BFDE;
+					};
+				};
+			};
+			buildConfigurationList = DBCAC4432799F4AB0069BFDE /* Build configuration list for PBXProject "pokemon-mentoria-app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBCAC43F2799F4AB0069BFDE;
+			productRefGroup = DBCAC4492799F4AB0069BFDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBCAC4472799F4AB0069BFDE /* pokemon-mentoria-app */,
+				DBCAC45D2799F4AD0069BFDE /* pokemon-mentoria-appTests */,
+				DBCAC4672799F4AD0069BFDE /* pokemon-mentoria-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBCAC4462799F4AB0069BFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCAC4582799F4AD0069BFDE /* LaunchScreen.storyboard in Resources */,
+				DB808E5927AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */,
+				DB808E4427AB6012006F4FA6 /* PrimaryButton.xib in Resources */,
+				DBCAC4552799F4AD0069BFDE /* Assets.xcassets in Resources */,
+				DB808E5127AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf in Resources */,
+				DBCAC4532799F4AB0069BFDE /* Main.storyboard in Resources */,
+				DB808E5627AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCAC45C2799F4AD0069BFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB808E5227AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf in Resources */,
+				DB808E5A27AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */,
+				DB808E5727AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCAC4662799F4AD0069BFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB808E5327AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf in Resources */,
+				DB808E5B27AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */,
+				DB808E5827AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBCAC4442799F4AB0069BFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB808E4627AB605B006F4FA6 /* PrimaryButton.swift in Sources */,
+				DBCAC4502799F4AB0069BFDE /* HomeViewController.swift in Sources */,
+				DB79C46627EB9D830056EDAF /* ArticlesModel.swift in Sources */,
+				DBCAC44C2799F4AB0069BFDE /* AppDelegate.swift in Sources */,
+				DB0225EE27EB803B00365C90 /* NewsListViewController.swift in Sources */,
+				DB0225F027EB855600365C90 /* BlueViewController.swift in Sources */,
+				DB95DC572804F8B700FC0837 /* NewsCell.swift in Sources */,
+				DBCAC44E2799F4AB0069BFDE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCAC45A2799F4AD0069BFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCAC4632799F4AD0069BFDE /* pokemon_mentoria_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCAC4642799F4AD0069BFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCAC46D2799F4AD0069BFDE /* pokemon_mentoria_appUITests.swift in Sources */,
+				DBCAC46F2799F4AD0069BFDE /* pokemon_mentoria_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBCAC4602799F4AD0069BFDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBCAC4472799F4AB0069BFDE /* pokemon-mentoria-app */;
+			targetProxy = DBCAC45F2799F4AD0069BFDE /* PBXContainerItemProxy */;
+		};
+		DBCAC46A2799F4AD0069BFDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBCAC4472799F4AB0069BFDE /* pokemon-mentoria-app */;
+			targetProxy = DBCAC4692799F4AD0069BFDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBCAC4512799F4AB0069BFDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBCAC4522799F4AB0069BFDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBCAC4562799F4AD0069BFDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBCAC4572799F4AD0069BFDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBCAC4702799F4AD0069BFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBCAC4712799F4AD0069BFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBCAC4732799F4AD0069BFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pokemon-mentoria-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kamilla-antunes.pokemon-mentoria-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBCAC4742799F4AD0069BFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pokemon-mentoria-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kamilla-antunes.pokemon-mentoria-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBCAC4762799F4AD0069BFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kamilla-antunes.pokemon-mentoria-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pokemon-mentoria-app.app/pokemon-mentoria-app";
+			};
+			name = Debug;
+		};
+		DBCAC4772799F4AD0069BFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kamilla-antunes.pokemon-mentoria-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pokemon-mentoria-app.app/pokemon-mentoria-app";
+			};
+			name = Release;
+		};
+		DBCAC4792799F4AD0069BFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kamilla-antunes.pokemon-mentoria-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pokemon-mentoria-app";
+			};
+			name = Debug;
+		};
+		DBCAC47A2799F4AD0069BFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kamilla-antunes.pokemon-mentoria-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pokemon-mentoria-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBCAC4432799F4AB0069BFDE /* Build configuration list for PBXProject "pokemon-mentoria-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCAC4702799F4AD0069BFDE /* Debug */,
+				DBCAC4712799F4AD0069BFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCAC4722799F4AD0069BFDE /* Build configuration list for PBXNativeTarget "pokemon-mentoria-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCAC4732799F4AD0069BFDE /* Debug */,
+				DBCAC4742799F4AD0069BFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCAC4752799F4AD0069BFDE /* Build configuration list for PBXNativeTarget "pokemon-mentoria-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCAC4762799F4AD0069BFDE /* Debug */,
+				DBCAC4772799F4AD0069BFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCAC4782799F4AD0069BFDE /* Build configuration list for PBXNativeTarget "pokemon-mentoria-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCAC4792799F4AD0069BFDE /* Debug */,
+				DBCAC47A2799F4AD0069BFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBCAC4402799F4AB0069BFDE /* Project object */;
+}

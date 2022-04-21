@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "botao-inativo.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
