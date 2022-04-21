@@ -69,7 +69,11 @@ extension UIView {
 extension ArticlesListViewController {
     func fetchData() {
         let url = URL.init(string: "https://newsapi.org/v2/top-headlines?country=us&apiKey=ce8ed40d511945369a679ddd61a6a13d")
-        URLSession.shared.dataTask(with: url!) { data, response, error in
+        URLSession.shared.dataTask(with: url!) { [weak self] data, response, error in
+            guard let self = self else {
+                return
+            }
+            
             guard error == nil else {
                 return
             }
@@ -82,6 +86,9 @@ extension ArticlesListViewController {
                 let news = try JSONDecoder().decode(Response.self, from: data)
                 for article in news.noticias {
                     self.articles.append(article)
+                }
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
                 }
             } catch {
                 print(error.localizedDescription)
