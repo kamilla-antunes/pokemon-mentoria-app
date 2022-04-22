@@ -29,6 +29,7 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .lightGray
         view.addSubview(whiteButton)
         view.addSubview(blueButton)
     }

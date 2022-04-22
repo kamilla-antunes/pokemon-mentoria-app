@@ -31,6 +31,9 @@
 		DBCAC4632799F4AD0069BFDE /* pokemon_mentoria_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAC4622799F4AD0069BFDE /* pokemon_mentoria_appTests.swift */; };
 		DBCAC46D2799F4AD0069BFDE /* pokemon_mentoria_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAC46C2799F4AD0069BFDE /* pokemon_mentoria_appUITests.swift */; };
 		DBCAC46F2799F4AD0069BFDE /* pokemon_mentoria_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAC46E2799F4AD0069BFDE /* pokemon_mentoria_appUITestsLaunchTests.swift */; };
+		DBF9F80C2812361E0040712E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF9F80B2812361E0040712E /* LoginViewController.swift */; };
+		DBF9F80E281243230040712E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF9F80D281243230040712E /* Colors.swift */; };
+		DBF9F8112812468C0040712E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF9F8102812468C0040712E /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,9 @@
 		DBCAC4682799F4AD0069BFDE /* pokemon-mentoria-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pokemon-mentoria-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCAC46C2799F4AD0069BFDE /* pokemon_mentoria_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemon_mentoria_appUITests.swift; sourceTree = "<group>"; };
 		DBCAC46E2799F4AD0069BFDE /* pokemon_mentoria_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemon_mentoria_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBF9F80B2812361E0040712E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DBF9F80D281243230040712E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DBF9F8102812468C0040712E /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +215,7 @@
 				DBCAC4542799F4AD0069BFDE /* Assets.xcassets */,
 				DBCAC4562799F4AD0069BFDE /* LaunchScreen.storyboard */,
 				DBCAC4592799F4AD0069BFDE /* Info.plist */,
+				DBF9F80B2812361E0040712E /* LoginViewController.swift */,
 			);
 			path = "pokemon-mentoria-app";
 			sourceTree = "<group>";
@@ -233,11 +240,21 @@
 		DBCAC47B2799F53F0069BFDE /* Design System */ = {
 			isa = PBXGroup;
 			children = (
+				DBF9F80F281243300040712E /* Settings */,
 				DB808E4727AB638C006F4FA6 /* Fonts */,
 				DB808E3F27AB5EFF006F4FA6 /* Buttons */,
 				DBBC3CC027A315E8009DDC76 /* Input */,
 			);
 			path = "Design System";
+			sourceTree = "<group>";
+		};
+		DBF9F80F281243300040712E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DBF9F80D281243230040712E /* Colors.swift */,
+				DBF9F8102812468C0040712E /* Fonts.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,12 +398,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF9F80C2812361E0040712E /* LoginViewController.swift in Sources */,
+				DBF9F80E281243230040712E /* Colors.swift in Sources */,
 				DB808E4627AB605B006F4FA6 /* PrimaryButton.swift in Sources */,
 				DBCAC4502799F4AB0069BFDE /* HomeViewController.swift in Sources */,
 				DB79C46627EB9D830056EDAF /* ArticleModel.swift in Sources */,
 				DBCAC44C2799F4AB0069BFDE /* AppDelegate.swift in Sources */,
 				DB0225EE27EB803B00365C90 /* ArticlesListViewController.swift in Sources */,
 				DB0225F027EB855600365C90 /* BlueViewController.swift in Sources */,
+				DBF9F8112812468C0040712E /* Fonts.swift in Sources */,
 				DB95DC572804F8B700FC0837 /* ArticleCell.swift in Sources */,
 				DBCAC44E2799F4AB0069BFDE /* SceneDelegate.swift in Sources */,
 			);

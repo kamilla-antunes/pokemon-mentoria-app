@@ -15,8 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let newScene = (scene as? UIWindowScene) else { return }
         
-        let viewController = HomeViewController()
-        viewController.view.backgroundColor = .red
+        let viewController = LoginViewController()
         
         let newWindow: UIWindow = UIWindow.init(windowScene: newScene)
         window = newWindow
