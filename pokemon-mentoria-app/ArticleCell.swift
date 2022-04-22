@@ -10,12 +10,14 @@ import UIKit
 class ArticleCell: UITableViewCell {
     
     var articleTitleLabel = UILabel()
+    var articleAuthorLabel = UILabel()
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         addSubview(articleTitleLabel)
-        configureTitleLabel()
-        setTitleLabelConstraints()
+        addSubview(articleAuthorLabel)
+        configureTitleLabels()
+        setTitleLabelsConstraints()
     }
     
     required init?(coder: NSCoder) {
@@ -23,19 +25,30 @@ class ArticleCell: UITableViewCell {
     }
     
     func set(article: Article){
-        articleTitleLabel.text = article.tituloNoticia
+        articleTitleLabel.text = article.titulo
+        articleAuthorLabel.text = article.autor
     }
     
-    func configureTitleLabel() {
+    func configureTitleLabels() {
         articleTitleLabel.numberOfLines = 0
         articleTitleLabel.adjustsFontSizeToFitWidth = true
+        
+        articleAuthorLabel.numberOfLines = 0
+        articleAuthorLabel.adjustsFontSizeToFitWidth = true
     }
     
-    func setTitleLabelConstraints() {
+    func setTitleLabelsConstraints() {
         articleTitleLabel.translatesAutoresizingMaskIntoConstraints = false
-        articleTitleLabel.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+        articleAuthorLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        articleTitleLabel.topAnchor.constraint(equalTo: topAnchor).isActive = true
         articleTitleLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).isActive = true
         articleTitleLabel.heightAnchor.constraint(equalToConstant: 80).isActive = true
         articleTitleLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -12).isActive = true
+        
+        articleAuthorLabel.centerYAnchor.constraint(equalTo: articleTitleLabel.bottomAnchor).isActive = true
+        articleAuthorLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).isActive = true
+        articleAuthorLabel.heightAnchor.constraint(equalToConstant: 80).isActive = true
+        articleAuthorLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -12).isActive = true
     }
 }

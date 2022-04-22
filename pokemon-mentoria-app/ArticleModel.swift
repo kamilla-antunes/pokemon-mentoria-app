@@ -15,10 +15,12 @@
 import Foundation
 
 struct Article: Codable {
-    let tituloNoticia: String
+    let titulo: String
+    let autor: String?
     
     enum CodingKeys : String, CodingKey {
-        case tituloNoticia = "title"
+        case titulo = "title"
+        case autor = "author"
     }
 }
 

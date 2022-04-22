@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB0225EE27EB803B00365C90 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0225ED27EB803B00365C90 /* NewsListViewController.swift */; };
+		DB0225EE27EB803B00365C90 /* ArticlesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0225ED27EB803B00365C90 /* ArticlesListViewController.swift */; };
 		DB0225F027EB855600365C90 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0225EF27EB855600365C90 /* BlueViewController.swift */; };
-		DB79C46627EB9D830056EDAF /* ArticlesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB79C46527EB9D830056EDAF /* ArticlesModel.swift */; };
+		DB79C46627EB9D830056EDAF /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB79C46527EB9D830056EDAF /* ArticleModel.swift */; };
 		DB808E4427AB6012006F4FA6 /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB808E4327AB6012006F4FA6 /* PrimaryButton.xib */; };
 		DB808E4627AB605B006F4FA6 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB808E4527AB605B006F4FA6 /* PrimaryButton.swift */; };
 		DB808E5127AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5027AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf */; };
@@ -21,7 +21,7 @@
 		DB808E5927AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5527AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf */; };
 		DB808E5A27AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5527AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf */; };
 		DB808E5B27AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5527AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf */; };
-		DB95DC572804F8B700FC0837 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95DC562804F8B700FC0837 /* NewsCell.swift */; };
+		DB95DC572804F8B700FC0837 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95DC562804F8B700FC0837 /* ArticleCell.swift */; };
 		DBCAC44C2799F4AB0069BFDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAC44B2799F4AB0069BFDE /* AppDelegate.swift */; };
 		DBCAC44E2799F4AB0069BFDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAC44D2799F4AB0069BFDE /* SceneDelegate.swift */; };
 		DBCAC4502799F4AB0069BFDE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAC44F2799F4AB0069BFDE /* HomeViewController.swift */; };
@@ -51,15 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DB0225ED27EB803B00365C90 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		DB0225ED27EB803B00365C90 /* ArticlesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListViewController.swift; sourceTree = "<group>"; };
 		DB0225EF27EB855600365C90 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
-		DB79C46527EB9D830056EDAF /* ArticlesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesModel.swift; sourceTree = "<group>"; };
+		DB79C46527EB9D830056EDAF /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 		DB808E4327AB6012006F4FA6 /* PrimaryButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryButton.xib; sourceTree = "<group>"; };
 		DB808E4527AB605B006F4FA6 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		DB808E5027AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		DB808E5427AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		DB808E5527AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		DB95DC562804F8B700FC0837 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		DB95DC562804F8B700FC0837 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		DBCAC4482799F4AB0069BFDE /* pokemon-mentoria-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pokemon-mentoria-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCAC44B2799F4AB0069BFDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBCAC44D2799F4AB0069BFDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -201,10 +201,10 @@
 				DBCAC44B2799F4AB0069BFDE /* AppDelegate.swift */,
 				DBCAC44D2799F4AB0069BFDE /* SceneDelegate.swift */,
 				DBCAC44F2799F4AB0069BFDE /* HomeViewController.swift */,
-				DB0225ED27EB803B00365C90 /* NewsListViewController.swift */,
+				DB0225ED27EB803B00365C90 /* ArticlesListViewController.swift */,
 				DB0225EF27EB855600365C90 /* BlueViewController.swift */,
-				DB79C46527EB9D830056EDAF /* ArticlesModel.swift */,
-				DB95DC562804F8B700FC0837 /* NewsCell.swift */,
+				DB79C46527EB9D830056EDAF /* ArticleModel.swift */,
+				DB95DC562804F8B700FC0837 /* ArticleCell.swift */,
 				DBCAC4512799F4AB0069BFDE /* Main.storyboard */,
 				DBCAC4542799F4AD0069BFDE /* Assets.xcassets */,
 				DBCAC4562799F4AD0069BFDE /* LaunchScreen.storyboard */,
@@ -383,11 +383,11 @@
 			files = (
 				DB808E4627AB605B006F4FA6 /* PrimaryButton.swift in Sources */,
 				DBCAC4502799F4AB0069BFDE /* HomeViewController.swift in Sources */,
-				DB79C46627EB9D830056EDAF /* ArticlesModel.swift in Sources */,
+				DB79C46627EB9D830056EDAF /* ArticleModel.swift in Sources */,
 				DBCAC44C2799F4AB0069BFDE /* AppDelegate.swift in Sources */,
-				DB0225EE27EB803B00365C90 /* NewsListViewController.swift in Sources */,
+				DB0225EE27EB803B00365C90 /* ArticlesListViewController.swift in Sources */,
 				DB0225F027EB855600365C90 /* BlueViewController.swift in Sources */,
-				DB95DC572804F8B700FC0837 /* NewsCell.swift in Sources */,
+				DB95DC572804F8B700FC0837 /* ArticleCell.swift in Sources */,
 				DBCAC44E2799F4AB0069BFDE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
