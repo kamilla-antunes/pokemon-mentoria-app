@@ -4,9 +4,9 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Oswald-VariableFont_wght</string>
 		<string>JosefinSans-Italic-VariableFont_wght.ttf</string>
 		<string>JosefinSans-VariableFont_wght.ttf</string>
+		<string>Oswald-VariableFont_wght.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

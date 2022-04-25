@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		DB0225EE27EB803B00365C90 /* ArticlesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0225ED27EB803B00365C90 /* ArticlesListViewController.swift */; };
 		DB0225F027EB855600365C90 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0225EF27EB855600365C90 /* BlueViewController.swift */; };
+		DB5E153E28138E1C00EDFE5A /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5E153D28138E1C00EDFE5A /* TextField.swift */; };
+		DB5E15412813940100EDFE5A /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5E15402813940100EDFE5A /* Container.swift */; };
 		DB79C46627EB9D830056EDAF /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB79C46527EB9D830056EDAF /* ArticleModel.swift */; };
-		DB808E4427AB6012006F4FA6 /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB808E4327AB6012006F4FA6 /* PrimaryButton.xib */; };
 		DB808E4627AB605B006F4FA6 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB808E4527AB605B006F4FA6 /* PrimaryButton.swift */; };
 		DB808E5127AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5027AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf */; };
 		DB808E5227AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB808E5027AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf */; };
@@ -56,8 +57,9 @@
 /* Begin PBXFileReference section */
 		DB0225ED27EB803B00365C90 /* ArticlesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListViewController.swift; sourceTree = "<group>"; };
 		DB0225EF27EB855600365C90 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		DB5E153D28138E1C00EDFE5A /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		DB5E15402813940100EDFE5A /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		DB79C46527EB9D830056EDAF /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
-		DB808E4327AB6012006F4FA6 /* PrimaryButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryButton.xib; sourceTree = "<group>"; };
 		DB808E4527AB605B006F4FA6 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		DB808E5027AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		DB808E5427AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
@@ -106,37 +108,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB5E153A28138DFE00EDFE5A /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				DB5E153D28138E1C00EDFE5A /* TextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		DB5E153F281393D200EDFE5A /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				DB5E15402813940100EDFE5A /* Container.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
 		DB808E3F27AB5EFF006F4FA6 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				DB808E4027AB5F0A006F4FA6 /* Model */,
-				DB808E4127AB5F13006F4FA6 /* View */,
-				DB808E4227AB5F1B006F4FA6 /* Controller */,
-			);
-			path = Buttons;
-			sourceTree = "<group>";
-		};
-		DB808E4027AB5F0A006F4FA6 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		DB808E4127AB5F13006F4FA6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				DB808E4327AB6012006F4FA6 /* PrimaryButton.xib */,
 				DB808E4527AB605B006F4FA6 /* PrimaryButton.swift */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		DB808E4227AB5F1B006F4FA6 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		DB808E4727AB638C006F4FA6 /* Fonts */ = {
@@ -147,37 +140,6 @@
 				DB808E5427AB6426006F4FA6 /* JosefinSans-VariableFont_wght.ttf */,
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		DBBC3CC027A315E8009DDC76 /* Input */ = {
-			isa = PBXGroup;
-			children = (
-				DBBC3CC127A315F1009DDC76 /* Model */,
-				DBBC3CC227A315F8009DDC76 /* View */,
-				DBBC3CC327A315FF009DDC76 /* Controller */,
-			);
-			path = Input;
-			sourceTree = "<group>";
-		};
-		DBBC3CC127A315F1009DDC76 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		DBBC3CC227A315F8009DDC76 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		DBBC3CC327A315FF009DDC76 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		DBCAC43F2799F4AB0069BFDE = {
@@ -240,10 +202,11 @@
 		DBCAC47B2799F53F0069BFDE /* Design System */ = {
 			isa = PBXGroup;
 			children = (
+				DB5E153F281393D200EDFE5A /* Container */,
 				DBF9F80F281243300040712E /* Settings */,
 				DB808E4727AB638C006F4FA6 /* Fonts */,
 				DB808E3F27AB5EFF006F4FA6 /* Buttons */,
-				DBBC3CC027A315E8009DDC76 /* Input */,
+				DB5E153A28138DFE00EDFE5A /* TextField */,
 			);
 			path = "Design System";
 			sourceTree = "<group>";
@@ -363,7 +326,6 @@
 			files = (
 				DBCAC4582799F4AD0069BFDE /* LaunchScreen.storyboard in Resources */,
 				DB808E5927AB6426006F4FA6 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */,
-				DB808E4427AB6012006F4FA6 /* PrimaryButton.xib in Resources */,
 				DBCAC4552799F4AD0069BFDE /* Assets.xcassets in Resources */,
 				DB808E5127AB63F8006F4FA6 /* Oswald-VariableFont_wght.ttf in Resources */,
 				DBCAC4532799F4AB0069BFDE /* Main.storyboard in Resources */,
@@ -401,12 +363,14 @@
 				DBF9F80C2812361E0040712E /* LoginViewController.swift in Sources */,
 				DBF9F80E281243230040712E /* Colors.swift in Sources */,
 				DB808E4627AB605B006F4FA6 /* PrimaryButton.swift in Sources */,
+				DB5E153E28138E1C00EDFE5A /* TextField.swift in Sources */,
 				DBCAC4502799F4AB0069BFDE /* HomeViewController.swift in Sources */,
 				DB79C46627EB9D830056EDAF /* ArticleModel.swift in Sources */,
 				DBCAC44C2799F4AB0069BFDE /* AppDelegate.swift in Sources */,
 				DB0225EE27EB803B00365C90 /* ArticlesListViewController.swift in Sources */,
 				DB0225F027EB855600365C90 /* BlueViewController.swift in Sources */,
 				DBF9F8112812468C0040712E /* Fonts.swift in Sources */,
+				DB5E15412813940100EDFE5A /* Container.swift in Sources */,
 				DB95DC572804F8B700FC0837 /* ArticleCell.swift in Sources */,
 				DBCAC44E2799F4AB0069BFDE /* SceneDelegate.swift in Sources */,
 			);
